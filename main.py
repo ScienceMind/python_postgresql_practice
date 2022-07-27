@@ -36,7 +36,7 @@ try:
     #     )
     #     print("[INFO] Data was successfully inserted")
 
-    # get data from table
+    # get data from tables
     with connection.cursor() as cursor:
         cursor.execute(
             """SELECT second_name FROM users WHERE first_name = 'Anton';"""
